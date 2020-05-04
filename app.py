@@ -6,6 +6,7 @@ from time import sleep
 import api_covid
 import api_twilio
 from api_twilio import auth_token,account_sid
+from api_covid import head
 
 
 
