@@ -51,7 +51,7 @@ def reptcode():
     r1=recovered_cases
     
     for i in phno:
-        bod='\n\n\n As of time {} today \nTotal cases in {} are {} and recovered cases are {} plus the no.of deaths are {}'.format(result,c1,r1,deaths)
+        bod='\n\n\n As of time {} today \nTotal cases in {},{} are {} and recovered cases are {} plus the no.of deaths are {}'.format(result,city,state,c1,r1,deaths)
         message = client.messages \
             .create(
                 body=bod,
