@@ -5,6 +5,8 @@ from twilio.rest import Client
 from time import sleep
 import api_covid
 import api_twilio
+from api_twilio import auth_token,account_sid
+
 
 
 def accquire_location():
@@ -38,7 +40,7 @@ def reptcode():
     deaths=agra_data['deceased']
     
     
-    client = Client(api_twilio.account_sid, api_twilio.auth_token)
+    client = Client(account_sid, auth_token)
     
     localtime=time.localtime()
     result=time.strftime("%I:%M:%S %p", localtime)
