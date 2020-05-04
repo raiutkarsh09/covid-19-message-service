@@ -1,6 +1,6 @@
-# Covid-19 District-wise Messaging service
+# Covid-19 District-wise Messaging servic yo muslte
 
-This Project informs user ever 7 hours about the Current Status of COVID-19 patients in their district.
+This Project informs user and their added phone numbers ever 7 hours about the Current Status of COVID-19 patients in their district.
 It is based on collecting and sending data using REST APIs
 
 
@@ -18,20 +18,22 @@ It uses REST APIs like [Twilio-messaging-api](https://www.twilio.com/) and [covi
 ### Installation
 
 This project requires python3 enviorment installed on your system.
+First collect the api keys from twilio and create a virtual phone number.
+Suscribe to the Covid-19-tracker Rapid API and view endpoints.
 
-Install the requirements
+##### To setup the api keys open the api_covid.py and api_twilio.py and fill the respective fields
+
+Install the requirements:
 
 ```sh
 $ cd covid_19_message_service
 $ pip install -r requirements.txt
 ```
-##### To setup the api keys open the api_covid.py and api_twilio.py and fill the respective fields
 To finish setting up open terminal in same folder and wirte:
 ```sh
 $ python3 run.py &
 ```
 
-###
 
 
 
