@@ -1,4 +1,4 @@
-# Covid-19 District-wise Messaging servic yo muslte
+# Covid-19 District-wise Messaging service
 
 This Project informs user and their added phone numbers ever 7 hours about the Current Status of COVID-19 patients in their district.
 It is based on collecting and sending data using REST APIs
